@@ -1,0 +1,103 @@
+{
+  "phones": [
+    {
+      "id": 0,
+      "name": "iPhone 7",
+      "manufacturer": "Apple",
+      "description": "The iPhone 7 and iPhone 7 Plus are smartphones designed, developed, and marketed by Apple Inc. They are the tenth generation of the iPhone.",
+      "color": "Black",
+      "price": 769,
+      "imageFileName": "/images/iPhone7.png",
+      "screen": "4,7 inch IPS",
+      "processor": "A10 Fusion",
+      "ram": 2
+    },
+    {
+      "id": 1,
+      "name": "iPhone 11",
+      "manufacturer": "Apple",
+      "description": "The iPhone 11 is a smartphone designed, developed, and marketed by Apple Inc. It is the 13th generation, lower-priced iPhone, succeeding the iPhone XR.",
+      "color": "Red",
+      "price": 859,
+      "imageFileName": "/images/iPhone11.png",
+      "screen": "6,1 inch LCD",
+      "processor": "Chip A13 Bionic",
+      "ram": 4
+    },
+    {
+      "id": 2,
+      "name": "Galaxy S21",
+      "manufacturer": "Samsung",
+      "description": "The Samsung Galaxy S21 is a series of Android-based smartphones designed, developed, marketed, and manufactured by Samsung Electronics as part of its Galaxy S series. They collectively serve as the successor to the Galaxy S20 series.",
+      "color": "White",
+      "price": 859,
+      "imageFileName": "/images/galaxyS21.png",
+      "screen": "6,2 inch Dynamic AMOLED",
+      "processor": "Exynos 2100",
+      "ram": 8
+    },
+    {
+      "id": 3,
+      "name": "OnePlus 9",
+      "manufacturer": "OnePlus",
+      "description": "The OnePlus 9 and 9 Pro are Android-based smartphones manufactured by OnePlus.",
+      "color": "Black",
+      "price": 709,
+      "imageFileName": "/images/oneplus9.png",
+      "screen": "6,55 inch Fluid AMOLED",
+      "processor": "Qualcomm Snapdragon 888",
+      "ram": 8
+    }
+    ,
+    {
+      "id": 4,
+      "name": "Xiaomi Mi 11",
+      "manufacturer": "Xiaomi",
+      "description": "The Xiaomi Mi 11 is an Android-based high-end smartphone designed, developed, produced, and marketed by Xiaomi Inc. succeeding their Xiaomi Mi 10 series.",
+      "color": "White",
+      "price": 749,
+      "imageFileName": "/images/mi11.png",
+      "screen": "6,81 inch AMOLED DotDisplay",
+      "processor": "Qualcomm Snapdragon 888",
+      "ram": 8
+    }
+    ,
+    {
+      "id": 5,
+      "name": "Redmi Note 10 Pro",
+      "manufacturer": "Xiaomi",
+      "description": "The Redmi Note 10 is a line of Android-based smartphones as part of the Redmi Note series by Redmi, a sub-brand of Xiaomi Inc.",
+      "color": "White",
+      "price": 239,
+      "imageFileName": "/images/redminote10pro.png",
+      "screen": "6,67 inch AMOLED DotDisplay",
+      "processor": "Qualcomm Snapdragon 732G",
+      "ram": 6
+    }
+    ,
+    {
+      "id": 6,
+      "name": "Huawei P40 Pro",
+      "manufacturer": "Huawei",
+      "description": "Huawei P40 is a line of high-end Android-based smartphones manufactured by Huawei.",
+      "color": "Silver",
+      "price": 699,
+      "imageFileName": "/images/huaweip40pro.png",
+      "screen": "6,58 inch OLED",
+      "processor": "Kirin 990 5G",
+      "ram": 8
+    },
+    {
+      "id": 7,
+      "name": "Oppo Find X3 Pro",
+      "manufacturer": "Oppo",
+      "description": "Oppo Find X3 and Find X3 Pro are Android-based smartphones manufactured by Oppo, succeeding the Find X2 and Find X2 Pro.",
+      "color": "Blue",
+      "price": 1029,
+      "imageFileName": "/images/oppofindx3pro.png",
+      "screen": "6,70 inch AMOLED",
+      "processor": "Qualcomm Snapdragon 888",
+      "ram": 12
+    }
+  ]
+}

@@ -1,13 +1,107 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  font-family: "Fira Sans", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: #f7cabb;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  max-width: 100%;
+  width: 100%;
+}
+
+.phoneBlock {
+  background-color: #f4b8a4;
+  max-width: 100%;
+  max-height: 20%;
+  text-align: center;
+  display: flex;
+  line-height: 100%;
+  align-items: center;
+  margin: 1%;
+  border-radius: 20px;
+}
+
+.phoneBlock img {
+  height: auto;
+  width: 20%;
+  margin: 3%;
+}
+
+.phoneBlock h3 {
+  font-weight: normal;
+  width: 50%;
+  max-height: 100%;
+}
+
+.phoneBlock button {
+  display: inline-block;
+  margin: 3%;
+  width: 20%;
+  max-height: 100%;
+  background-color: #f2a68d;
+  border: 3px solid #ec825f;
+  border-radius: 10px;
+  padding: 4px;
+}
+
+.header {
+  max-width: 100%;
+  background-color: #f2a68d;
+  padding: 10px;
+  margin: 0px;
+}
+
+.header h1 {
+  font-weight: normal;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  z-index: 1;
+}
+
+.popup-in {
+  position: relative;
+  background-color: #f4b8a4;
+  padding: 10px;
+  width: 90%;
+  height: 90%;
+  max-width: 70%;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.popup-in img {
+  height: 20%;
+  width: auto;
+  margin: 10%;
+}
+
+.popup-in p {
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.popup-in button {
+  position: absolute;
+  width: 20%;
+  max-height: 100%;
+  background-color: #f2a68d;
+  border: 3px solid #ec825f;
+  border-radius: 10px;
+  padding: 4px;
+  bottom: 5%;
+  left: 10%;
 }
