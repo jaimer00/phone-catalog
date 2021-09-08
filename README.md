@@ -1,9 +1,11 @@
 # Running the app
 
 To run the app, you must initiate 2 consoles in the phone-catalog folder.
-In one of them run:
-npm run server
-In the other one run:
+
+In one of them run:  
+npm run server.
+
+In the other one run:  
 npm start
 
 With the first command, the REST API will start running, and with the second the React App is started and a tab
